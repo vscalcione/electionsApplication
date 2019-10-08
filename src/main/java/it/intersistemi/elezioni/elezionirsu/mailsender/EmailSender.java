@@ -1,4 +1,4 @@
-package it.intersistemi.elezioni.elezionirsu;
+package it.intersistemi.elezioni.elezionirsu.mailsender;
 
 import com.sun.mail.smtp.SMTPTransport;
 
@@ -12,12 +12,12 @@ import java.util.Properties;
 
 public class EmailSender {
 
-    private static final String SMTP_SERVER = "ismail.intersistemi.it";
-    private static final String USERNAME = "v.scalcione@intersistemi.it";
-    private static final String PASSWORD = "";
+    private static final String SMTP_SERVER = "stmp.gmail.com";
+    private static final String USERNAME = "vincenzo99.scalcione@gmail.com";
+    private static final String PASSWORD = "vincenzo12345";
 
-    private static final String EMAIL_FROM = "v.scalcione@intersistemi.it";
-    private static final String EMAIL_TO = "VScalcione.external@mcc.it";
+    private static final String EMAIL_FROM = USERNAME;
+    private static final String EMAIL_TO = "v.scalcione@interistemi.it";
     private static final String EMAIL_TO_CC = "";
 
     private static final String EMAIL_SUBJECT = "Email Sender in Java";

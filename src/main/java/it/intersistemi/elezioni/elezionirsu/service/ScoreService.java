@@ -1,6 +1,6 @@
 package it.intersistemi.elezioni.elezionirsu.service;
 
-import it.intersistemi.elezioni.elezionirsu.model.ScoreDto;
+import it.intersistemi.elezioni.elezionirsu.dto.ScoreDto;
 import org.springframework.stereotype.Service;
 
 @Service

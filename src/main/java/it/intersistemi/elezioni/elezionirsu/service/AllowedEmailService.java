@@ -1,6 +1,6 @@
 package it.intersistemi.elezioni.elezionirsu.service;
 
-import it.intersistemi.elezioni.elezionirsu.model.AllowedEmailDto;
+import it.intersistemi.elezioni.elezionirsu.dto.AllowedEmailDto;
 import org.springframework.stereotype.Service;
 
 @Service

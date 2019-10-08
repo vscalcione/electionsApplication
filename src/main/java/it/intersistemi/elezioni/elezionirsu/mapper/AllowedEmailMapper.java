@@ -1,7 +1,7 @@
 package it.intersistemi.elezioni.elezionirsu.mapper;
 
 import it.intersistemi.elezioni.elezionirsu.entity.AllowedEmail;
-import it.intersistemi.elezioni.elezionirsu.model.AllowedEmailDto;
+import it.intersistemi.elezioni.elezionirsu.dto.AllowedEmailDto;
 import org.springframework.stereotype.Component;
 
 @Component

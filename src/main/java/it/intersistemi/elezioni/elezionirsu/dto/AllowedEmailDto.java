@@ -1,4 +1,4 @@
-package it.intersistemi.elezioni.elezionirsu.model;
+package it.intersistemi.elezioni.elezionirsu.dto;
 
 public class AllowedEmailDto{
 

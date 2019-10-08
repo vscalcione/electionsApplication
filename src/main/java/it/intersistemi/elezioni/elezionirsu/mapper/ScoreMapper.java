@@ -1,7 +1,7 @@
 package it.intersistemi.elezioni.elezionirsu.mapper;
 
 import it.intersistemi.elezioni.elezionirsu.entity.Score;
-import it.intersistemi.elezioni.elezionirsu.model.ScoreDto;
+import it.intersistemi.elezioni.elezionirsu.dto.ScoreDto;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,7 +1,7 @@
 package it.intersistemi.elezioni.elezionirsu.mapper;
 
 import it.intersistemi.elezioni.elezionirsu.entity.User;
-import it.intersistemi.elezioni.elezionirsu.model.UserDto;
+import it.intersistemi.elezioni.elezionirsu.dto.UserDto;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,7 +2,7 @@ package it.intersistemi.elezioni.elezionirsu.service.implementations;//package i
 
 import it.intersistemi.elezioni.elezionirsu.entity.User;
 import it.intersistemi.elezioni.elezionirsu.mapper.UserMapper;
-import it.intersistemi.elezioni.elezionirsu.model.UserDto;
+import it.intersistemi.elezioni.elezionirsu.dto.UserDto;
 import it.intersistemi.elezioni.elezionirsu.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

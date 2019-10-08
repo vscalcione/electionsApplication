@@ -1,7 +1,0 @@
-Egregio sign. [userName][userSurname],
-<br>
-come da accordo, le verrà inviato all'indirizzo di posta elettronica corrente ([email]),
-<br>
-un codice di accesso che potrà essere usato una sola volta per eseguire la votazione.
-<br><br>
-Cordiali saluti

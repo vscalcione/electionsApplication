@@ -4,5 +4,6 @@ import it.intersistemi.elezioni.elezionirsu.entity.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository <User, String> {
-    User findByAllowedEmailId(Integer idAllowedEmail);
+    User findByAllowedEmailId(String email);
+    Iterable<User> findAll();
 }

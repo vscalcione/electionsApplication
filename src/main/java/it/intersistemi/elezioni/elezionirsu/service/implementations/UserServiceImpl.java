@@ -1,4 +1,4 @@
-package it.intersistemi.elezioni.elezionirsu.service.implementations;//package it.intersistemi.elezioni.rsu.service.impl;
+package it.intersistemi.elezioni.elezionirsu.service.implementations;
 
 import it.intersistemi.elezioni.elezionirsu.entity.User;
 import it.intersistemi.elezioni.elezionirsu.mapper.UserMapper;
@@ -20,8 +20,8 @@ public class UserServiceImpl extends AbstractCrudServiceJpaImpl <User, String, U
         return entity.getEmail();
     }
 
-    public UserDto usersList (Integer idAllowedEmail){
-        return mapper.entityToDto(repository.findByAllowedEmailId(idAllowedEmail));
+    public UserDto usersList (String email){
+        return mapper.entityToDto(repository.findByAllowedEmailId(email));
     }
 }
 

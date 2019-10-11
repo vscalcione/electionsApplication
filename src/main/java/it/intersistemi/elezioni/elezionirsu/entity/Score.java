@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "SCORE")
-//@NamedQuery(name = "Score.findAll()", query = "SELECT s FROM SCORE s")
+//@NamedQuery(name = "Score.findAll", query = "SELECT s FROM Score s")
 public class Score implements Serializable {
 
     @Id

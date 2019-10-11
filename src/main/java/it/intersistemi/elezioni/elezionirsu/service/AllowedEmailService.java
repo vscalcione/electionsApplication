@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface AllowedEmailService extends CrudService<AllowedEmailDto, Integer> {
 
-    public Iterable <AllowedEmailDto> userEmailList(String email);
+    Iterable <AllowedEmailDto> userEmailList(String email);
     public void assignUserEmail(Integer idAllowedEmail, String email);
     public void removeUserEmail(Integer idAllowedEmail, String email);
 

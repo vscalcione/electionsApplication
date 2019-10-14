@@ -1,11 +1,12 @@
 package it.intersistemi.elezioni.elezionirsu.entity;
 
 import javax.persistence.*;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
-@Table
-@NamedQuery(name = "User.findAll()", query = "SELECT u FROM USER u")
+@Table(name = "USER", schema = "PUBLIC")
+@NamedQuery(name = "User.findAll", query = "SELECT u FROM User u")
 public class User implements Serializable {
 
     @Column(name = "ID_USER", unique = true, nullable = false, length = 2)

@@ -19,9 +19,9 @@
 //    private Environment env;
 //
 //    @Bean
-//    public LocalSessionFactoryBean sessionFactory(DataSource dataSource) {
+//    public LocalSessionFactoryBean sessionFactory(DataSource datasource) {
 //        LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
-//        sessionFactory.setDataSource(dataSource);
+//        sessionFactory.setDataSource(datasource);
 //        sessionFactory.setPackagesToScan("{it.intersistemi.elezioni.elezionirsu.enetity}");
 //        sessionFactory.setHibernateProperties(hibernateProperties());
 //        return sessionFactory;

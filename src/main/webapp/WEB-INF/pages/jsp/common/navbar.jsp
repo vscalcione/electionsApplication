@@ -1,4 +1,4 @@
-<%@ include file="/WEB-INF/pages/common/common.jsp" %>
+<%@ include file="/WEB-INF/pages/jsp/common/common.jsp" %>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="${ctx}">Elezioni RSU Interistemi Italia S.p.A.&trade;</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"

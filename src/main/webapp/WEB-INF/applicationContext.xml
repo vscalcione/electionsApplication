@@ -18,16 +18,16 @@
     </bean>
     <bean id="allowedEmailService" class="it.intersistemi.elezioni.elezionirsu.service.AllowedEmailService" abstract="true">
     </bean>
-<!--    <bean id="sessionFactory" scope="singleton" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">-->
-<!--        <property name="packagesToScan">-->
-<!--            <list>-->
-<!--                <value>it.intersistemi.elezioni.elezionirsu.entity</value>-->
-<!--            </list>-->
-<!--        </property>-->
-<!--    </bean>-->
+    <bean id="sessionFactory" scope="singleton" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="packagesToScan">
+            <list>
+                <value>it.intersistemi.elezioni.elezionirsu.entity</value>
+            </list>
+        </property>
+    </bean>
 
-<!--            &lt;!&ndash; Springs Hibernate Transaction Manager &ndash;&gt;-->
-<!--    <bean id ="transactionManager" class = "org.springframework.orm.hibernate4.HibernateTransactionManager">-->
-<!--    <property name = "sessionFactory" ref = "sessionFactory"/>-->
-</bean>
+            <!-- Springs Hibernate Transaction Manager -->
+    <bean id ="transactionManager" class = "org.springframework.orm.hibernate4.HibernateTransactionManager">
+    <property name = "sessionFactory" ref = "sessionFactory"/>
+    </bean>
 </beans>
